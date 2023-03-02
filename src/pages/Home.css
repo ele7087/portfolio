@@ -1,0 +1,25 @@
+.splashPage {
+  display: flex;
+  flex-direction: column;
+  font-family: "Raleway", Arial, sans-serif;
+  gap: 32px;
+}
+
+.contactSection {
+  color: #ff9d00;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.links {
+  color: #ff9d00;
+  text-decoration: none;
+}
+
+.textBox {
+  width: 200px;
+}
