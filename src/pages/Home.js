@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import ParallaxComponent from "../components/Parallax";
+import ParallaxComponent from "../components/Parallax/Parallax";
 
 function Home() {
   return (

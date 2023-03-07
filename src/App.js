@@ -5,7 +5,7 @@ import About from "./pages/About";
 import CaseStudies from "./pages/CaseStudies";
 import Gallery from "./pages/Gallery";
 import { Route, Routes } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import { ParallaxProvider } from "react-scroll-parallax";
 
 function App() {

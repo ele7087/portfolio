@@ -6,7 +6,7 @@ export default function ParallaxComponent() {
   return (
     <ParallaxBanner
       layers={[
-        { image: require("../media/ParallaxBG.png"), translateY: [0, 70] },
+        { image: require("../../media/ParallaxBG.png"), translateY: [0, 70] },
         {
           speed: 0,
           children: (
@@ -15,8 +15,8 @@ export default function ParallaxComponent() {
             </div>
           ),
         },
-        { image: require("../media/ParallaxMG.png"), translateY: [0, 10] },
-        { image: require("../media/ParallaxFG.png"), translateY: [0, 0] },
+        { image: require("../../media/ParallaxMG.png"), translateY: [0, 30] },
+        { image: require("../../media/ParallaxFG.png"), translateY: [0, 40] },
       ]}
       style={{ aspectRatio: "1/1" }}
     ></ParallaxBanner>
